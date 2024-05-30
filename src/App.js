@@ -9,6 +9,7 @@ import {
 import { Avatar, Button, Layout, Menu, theme } from 'antd';
 import { ProfileSettings } from './components/ProfileSettings';
 import { UserList } from './pages/UserList';
+import { TimeTable } from './pages/TimeTable';
 const { Header, Sider, Content } = Layout;
 
 const items = [
@@ -51,7 +52,7 @@ function App() {
       case '1':
         return <UserList />;
       case '2':
-        return <div>Dentist List Content</div>;
+        return <TimeTable />;
       case '3':
         return <div>Statistics Content</div>;
       case '4':
